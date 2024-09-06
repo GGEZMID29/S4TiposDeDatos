@@ -1,0 +1,14 @@
+C:\Users\javentura\S4Tiposdedatos\bin\Debug\net8.0\Tiposdedatos.exe
+C:\Users\javentura\S4Tiposdedatos\bin\Debug\net8.0\Tiposdedatos.deps.json
+C:\Users\javentura\S4Tiposdedatos\bin\Debug\net8.0\Tiposdedatos.runtimeconfig.json
+C:\Users\javentura\S4Tiposdedatos\bin\Debug\net8.0\Tiposdedatos.dll
+C:\Users\javentura\S4Tiposdedatos\bin\Debug\net8.0\Tiposdedatos.pdb
+C:\Users\javentura\S4Tiposdedatos\obj\Debug\net8.0\Tiposdedatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javentura\S4Tiposdedatos\obj\Debug\net8.0\Tiposdedatos.AssemblyInfoInputs.cache
+C:\Users\javentura\S4Tiposdedatos\obj\Debug\net8.0\Tiposdedatos.AssemblyInfo.cs
+C:\Users\javentura\S4Tiposdedatos\obj\Debug\net8.0\Tiposdedatos.csproj.CoreCompileInputs.cache
+C:\Users\javentura\S4Tiposdedatos\obj\Debug\net8.0\Tiposdedatos.dll
+C:\Users\javentura\S4Tiposdedatos\obj\Debug\net8.0\refint\Tiposdedatos.dll
+C:\Users\javentura\S4Tiposdedatos\obj\Debug\net8.0\Tiposdedatos.pdb
+C:\Users\javentura\S4Tiposdedatos\obj\Debug\net8.0\Tiposdedatos.genruntimeconfig.cache
+C:\Users\javentura\S4Tiposdedatos\obj\Debug\net8.0\ref\Tiposdedatos.dll
