@@ -539,3 +539,57 @@ subarreglos pueden ser de diferentes tamaños*/
     --Arreglos
     --Manipular Strings.
 */
+
+/*Practicas S4*/
+
+/*ToString*/
+//Es un método que funciona para convertir un obejo en la representación de una cadena de texto (String).
+//Tipos de Datos como int, double, bool ya lo tienen implementado, cuando se llama se obtiene una representación en texto del valor.
+
+//Ejemplo
+
+// int number = 123;
+// string textNumber = number.ToString();
+// System.Console.WriteLine(textNumber);
+
+//Ejemplo 2 
+
+// decimal precio = 19.99m;
+// string textoPrecio = precio.ToString();
+// Console.WriteLine(textoPrecio); // Imprime "19.99"
+
+// Ejemplo 3
+
+// DateTime fechaActual = DateTime.Now;
+// string textoFecha = fechaActual.ToString();
+// System.Console.WriteLine(textoFecha);
+
+// // Ejemplo 4
+
+// double numero = 1234.56789;
+// string textoFormateado = numero.ToString("F2");
+// Console.WriteLine(textoFormateado); // Imprime "1234.57"
+
+// // Ejemplo 5
+
+// bool esVerdadero = true;
+// string textoBooleano = esVerdadero.ToString();
+// Console.WriteLine(textoBooleano); // Imprime "True"
+
+// // Ejemplo 6
+
+// int[] numeros = { 1, 2, 3, 4, 5 };
+// string textoArreglo = string.Join(", ", numeros);
+// Console.WriteLine(textoArreglo); // Imprime "1, 2, 3, 4, 5"
+
+// Ejercicio ToString 1
+
+// bool test = true;
+// string textTest = test.ToString();
+// System.Console.WriteLine(textTest);
+
+// Ejercicio ToString 2
+
+// DateTime test = DateTime.Now;
+// string fechaAtexto = test.ToString();
+// System.Console.WriteLine(fechaAtexto);

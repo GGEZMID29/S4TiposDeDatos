@@ -12,3 +12,4 @@ C:\Users\javentura\S4Tiposdedatos\obj\Debug\net8.0\refint\Tiposdedatos.dll
 C:\Users\javentura\S4Tiposdedatos\obj\Debug\net8.0\Tiposdedatos.pdb
 C:\Users\javentura\S4Tiposdedatos\obj\Debug\net8.0\Tiposdedatos.genruntimeconfig.cache
 C:\Users\javentura\S4Tiposdedatos\obj\Debug\net8.0\ref\Tiposdedatos.dll
+C:\Users\javentura\S4Tiposdedatos\obj\Debug\net8.0\Tiposdedatos.sourcelink.json
