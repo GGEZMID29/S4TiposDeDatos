@@ -797,89 +797,209 @@ else
 }
 */
 
-/*Arreglos*/
+/*Arreglos
 
-//Es una estructura de datos que permiten almacenar una colección de elementos del mismo tipo en una secuencia ordenada. 
+Es una estructura de datos que permiten almacenar una colección de elementos del mismo tipo en una secuencia ordenada. 
 
-//Bidimensional
-// int[] num = { 30, 9, 4, 10, 29}; //La posición 0 es la primera en los arreglos
+Bidimensional
+int[] num = { 30, 9, 4, 10, 29}; //La posición 0 es la primera en los arreglos
 
-// foreach (var n in num)
-// {
-//     System.Console.WriteLine(n);
-// }
+foreach (var n in num)
+{
+    System.Console.WriteLine(n);
+}
 
-// System.Console.WriteLine(num[3]); //Se puede acceder a un elemento mediante índices.
+System.Console.WriteLine(num[3]); //Se puede acceder a un elemento mediante índices.
 
-//Multidimensional o Matriz
+Multidimensional o Matriz
 
-// int[,] calificaciones = { {90, 85}, {78, 82}, {88, 91} };
+int[,] calificaciones = { {90, 85}, {78, 82}, {88, 91} };
 
-// System.Console.WriteLine(calificaciones[0, 1]); //Imprime 85
-// System.Console.WriteLine(calificaciones[2, 0]); //Imprime 88
+System.Console.WriteLine(calificaciones[0, 1]); //Imprime 85
+System.Console.WriteLine(calificaciones[2, 0]); //Imprime 88
 
-//Arreglo de Arreglos
-// int[][] grupos = new int[3][];
+Arreglo de Arreglos
+int[][] grupos = new int[3][];
 
-// grupos[0] = new int[] { 5, 7, 8}; // Grupo 1 tiene 3 estudiantes
-// grupos[1] = new int[] { 6, 9 }; // Grupo 2 tiene 2 estudiantes
-// grupos[2] = new int[] {4, 10, 11}; // Grupo 3 tiene 3 estudiantes
+grupos[0] = new int[] { 5, 7, 8}; // Grupo 1 tiene 3 estudiantes
+grupos[1] = new int[] { 6, 9 }; // Grupo 2 tiene 2 estudiantes
+grupos[2] = new int[] {4, 10, 11}; // Grupo 3 tiene 3 estudiantes
 
-// System.Console.WriteLine(grupos[0][2]); //Imprime 8
-// System.Console.WriteLine(grupos[1][1]); //Imprime 9
+System.Console.WriteLine(grupos[0][2]); //Imprime 8
+System.Console.WriteLine(grupos[1][1]); //Imprime 9
 
-//Recorrer con Foreach
+Recorrer con Foreach
 
-// foreach (int[] grupo in grupos)
-// {
-//     foreach (int estudiante in grupo)
-//     {
-//         System.Console.WriteLine(estudiante);
-//     }
-// }
+foreach (int[] grupo in grupos)
+{
+    foreach (int estudiante in grupo)
+    {
+        System.Console.WriteLine(estudiante);
+    }
+}
 
-//Recorrer con For
+Recorrer con For
 
-// for (int i = 0; i < grupos.Length; i++)
-// {
-//     for (int j = 0; j < grupos[i].Length; j++)
-//     {
-//         System.Console.WriteLine(grupos[i][j]);
-//     }
-// }
+for (int i = 0; i < grupos.Length; i++)
+{
+    for (int j = 0; j < grupos[i].Length; j++)
+    {
+        System.Console.WriteLine(grupos[i][j]);
+    }
+}
 
-//Ejercicio 1 arreglos
+Ejercicio 1 arreglos
 
-//Sumar Elementos de un Arreglo Unidimensional
-// int[] numeros = { 2, 4, 6, 8, 10 };
-// int suma = 0;
+Sumar Elementos de un Arreglo Unidimensional
+int[] numeros = { 2, 4, 6, 8, 10 };
+int suma = 0;
 
-// foreach (int numero in numeros)
-// {
-//     suma += numero; // Esto es lo mismo que: suma = suma + numero;
+foreach (int numero in numeros)
+{
+    suma += numero; // Esto es lo mismo que: suma = suma + numero;
 
-// }
+}
 
-// Console.WriteLine("La suma de todos los elementos es: " + suma);
+Console.WriteLine("La suma de todos los elementos es: " + suma);
 
-//Ejercicio 2 Contar Números Pares en un Arreglo Dentado
+Ejercicio 2 Contar Números Pares en un Arreglo Dentado
 
-// int[][] grupos = new int[3][];
-// grupos[0] = new int[] { 1, 2, 3 };
-// grupos[1] = new int[] { 4, 5, 6 };
-// grupos[2] = new int[] { 7, 8, 9 };
+int[][] grupos = new int[3][];
+grupos[0] = new int[] { 1, 2, 3 };
+grupos[1] = new int[] { 4, 5, 6 };
+grupos[2] = new int[] { 7, 8, 9 };
 
-// int contadorPares = 0;
+int contadorPares = 0;
 
-// foreach (int[] grupo in grupos)
-// {
-//     foreach (int numero in grupo)
-//     {
-//         if (numero % 2 == 0)
-//         {
-//             contadorPares++;
-//         }
-//     }
-// }
+foreach (int[] grupo in grupos)
+{
+    foreach (int numero in grupo)
+    {
+        if (numero % 2 == 0)
+        {
+            contadorPares++;
+        }
+    }
+}
 
-// Console.WriteLine("La cantidad de números pares es: " + contadorPares);
+Console.WriteLine("La cantidad de números pares es: " + contadorPares);
+*/
+
+/*Manipular Strings
+//Ejemplo Concatenación
+
+string nombre = "Jayson";
+string apellido = "Ventura";
+string completo = nombre + " " + apellido;
+System.Console.WriteLine(completo);
+
+//Ejemplo Interpolación
+
+string nombre = "Jayson";
+int edad = 22;
+System.Console.WriteLine($"Mi nombre es {nombre} y tengo {edad} años");
+
+//Ejemplo Substrings
+//Extraer partes específicas de un string.
+
+string frase = "Hola mundo";
+string parte = frase.Substring(5, 4);
+System.Console.WriteLine(parte);
+
+//Ejemplo longitud
+
+string texto = "Aprendiendo C#";
+int longitud = texto.Length;
+System.Console.WriteLine(longitud);
+
+//Ejemplo Minúsculas y Mayúsculas
+
+string saludo = "Hola Mundo";
+string mayuscula = saludo.ToUpper();
+string minuscula = saludo.ToLower();
+
+System.Console.WriteLine(minuscula);
+System.Console.WriteLine(mayuscula);
+
+//Ejemplo Reemplazar texto
+
+string frase = "Me gusta el arroz con huevo";
+string reemplazar = frase.Replace("huevo", "salami");
+System.Console.WriteLine(reemplazar);
+
+//Ejemplo Eliminar espacios en blanco
+
+string mensaje = "   Hola   ";
+string limpio = mensaje.Trim();
+Console.WriteLine($"'{limpio}'");
+
+//Ejemplo Dividir String
+
+string colores = "rojo,verde,azul,gris";
+string[] listaColores = colores.Split(',');
+
+foreach (string color in listaColores)
+{
+    System.Console.WriteLine(color);
+}
+
+//Ejemplo Comparar Strings
+
+string p1 = "C#";
+string p2 = "p#";
+bool iguales = p1.Equals(p2, StringComparison.OrdinalIgnoreCase);
+System.Console.WriteLine(iguales);
+
+//Ejercicio 1: Crear una frase completa
+
+string nombre = "Jayson";
+string apellido = "Santana";
+System.Console.WriteLine("Mi nombre es "+ nombre + " " + apellido);
+
+//Ejercicio 2: Extraer una palabra de una frase
+
+string frase = "Hola Mundo";
+string extraer = frase.Substring(5,5);
+System.Console.WriteLine(extraer);
+
+//Ejercicio 3: Convertir una frase a mayúsculas
+
+string saludo = "buenos días";
+string mayuscula = saludo.ToUpper();
+System.Console.WriteLine(mayuscula);
+
+//Ejercicio 4: Invertir las palabras en una oración
+
+string oracion = "Me gusta aprender C#";
+string[] palabras = oracion.Split(' '); // Divide la oración en palabras separadas por espacios
+
+// // Invertir el array de palabras
+Array.Reverse(palabras);
+
+// Imprimir las palabras en el nuevo orden
+foreach (string palabra in palabras)
+{
+    System.Console.WriteLine(palabra);
+}
+
+// Unir las palabras invertidas con un espacio entre ellas
+string unido = String.Join(" ", palabras);
+System.Console.WriteLine(unido);
+
+
+//Ejercicio 5: Cambiar formato de fecha
+
+string fechaOriginal = "09/11/2024";
+
+// Reemplazar las barras con guiones
+string fechaConGuiones = fechaOriginal.Replace("/", "-");
+
+// Convertir el string en un objeto DateTime
+DateTime fecha = DateTime.ParseExact(fechaOriginal, "dd/MM/yyyy", null);
+
+// Formatear la fecha en el nuevo formato
+string fechaFormateada = fecha.ToString("dd MMM yyyy");
+
+System.Console.WriteLine($"Fecha con guiones: {fechaConGuiones}");
+System.Console.WriteLine($"Fecha formateada: {fechaFormateada}");
+*/
